@@ -222,11 +222,6 @@ em{
     color: rgba(207, 85, 16, 1);
 }
 
-input:valid{
-    border-color: red;
-    border-radius: 3px;
-}
-
 .intro-wrapper{
     display: flex;
     flex-wrap: wrap;
@@ -255,6 +250,7 @@ input:valid{
     width: 100%;
     max-width: 1200px;
     display: flex;
+    flex-wrap: wrap;
     box-sizing: border-box;
     flex-direction: row;
     justify-content: center;
@@ -269,7 +265,7 @@ input:valid{
 }
 
 .student{
-    padding-left: 50px;
+    padding-left: 40px;
 }
 
 .student-card{
