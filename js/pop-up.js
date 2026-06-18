@@ -12,7 +12,7 @@ function showPopup(evt) {
 
 function close() {
     mailingPopUp.classList.remove('show-popup')
-}
+};
 
 mailingPopUp.addEventListener('click', (e) => {
     if (e.target.classList.cotainers('show-popup')) {
