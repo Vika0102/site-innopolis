@@ -12,10 +12,11 @@ function showPopup(evt) {
 
 function close() {
     mailingPopUp.classList.remove('show-popup');
-};
+}
 
-mailingPopUp.addEventListener('click', (e) => {
-    if (e.target.classList.cotainers('show-popup')) {
-        close ();
-    }
-})
+// Находим кнопку закрытия внутри попапа
+const closeButton = mailingPopUp.querySelector('.popup-close');
+
+if (closeButton) {
+    closeButton.addEventListener('click', close);
+}
