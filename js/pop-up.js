@@ -8,3 +8,13 @@ function showPopup(evt) {
 
     loginPopUp.classList.toggle('show-popup');
 };
+
+function close() {
+    mailingPopUp.classList.remove('show-popup')
+}
+
+mailingPopUp.addEventListener('click', (e) => {
+    if (e.target.classList.cotainers('show-popup')) {
+        close ();
+    }
+})
