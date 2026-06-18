@@ -11,7 +11,7 @@ function showPopup(evt) {
 };
 
 function close() {
-    mailingPopUp.classList.remove('show-popup')
+    mailingPopUp.classList.remove('show-popup');
 };
 
 mailingPopUp.addEventListener('click', (e) => {
