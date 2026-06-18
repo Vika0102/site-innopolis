@@ -1,5 +1,6 @@
 let loginButton = document.querySelector('.login-button');
 let loginPopUp = document.querySelector ('.login-pop-up');
+let Closenews = document.querySelector('.popup-close');
 
 loginButton.addEventListener ('click', showPopup);
 
@@ -17,4 +18,4 @@ mailingPopUp.addEventListener('click', (e) => {
     if (e.target.classList.cotainers('show-popup')) {
         close ();
     }
-})
+}
